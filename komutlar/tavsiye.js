@@ -16,4 +16,17 @@ module.exports.run = async (bot, message, args, guild) => {
 module.exports.help = {
   name: 'tavsiye'
 };
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: ['YEDEK KOMUT1', 'YEDEK KOMUT2'],
+  permLevel: 0
+};
+
+exports.help = {
+  name: "tavsiye",
+  description: "BOT Tavsiye Verir",
+  usage: "tavsiye <mesaj>"
+};
  
