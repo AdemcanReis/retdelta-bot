@@ -14,3 +14,16 @@ message.channel.stopTyping();
 module.exports.help = {
   name: 'triggered'
 };
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: ['YEDEK KOMUT1', 'YEDEK KOMUT2'],
+  permLevel: 0
+};
+
+exports.help = {
+  name: "tridgered",
+  description: ".....",
+  usage: "tridgered <mesaj>"
+};
