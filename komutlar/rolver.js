@@ -24,7 +24,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "KOMUT İSMİ",
-  description: "AÇIKLAMA",
-  usage: "KOMUT İSMİ"
+  name: "rolver",
+  description: "Kişilere Rol Yetkisi Verir",
+  usage: "rolver <mesaj>"
 };
